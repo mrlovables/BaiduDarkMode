@@ -1,0 +1,255 @@
+/**计数器的颜色样式*/
+div .AC-CounterT {
+    background: #fd9999;
+}
+/**百度样式区域**/
+body[baidu] {
+    position: relative;
+    background-color: rgb(33, 35, 36);
+
+    a {
+        color: rgb(208, 202, 198) !important;
+    }
+
+    a:hover {
+        color: #1ba784 !important;
+    }
+
+    em {
+        /* color: rgb(252, 147, 147) !important; */
+        color: #f38181 !important;
+    }
+
+    .wrapper_new #u .s-top-img-wrapper {
+        position: relative;
+        width: 28px;
+        height: 28px;
+        border: 1px solid #1ba784;
+        display: inline-block;
+        border-radius: 50%;
+    }
+
+    .tool_3HMbZ:hover {
+        color: #1ba784 !important;
+    }
+
+    .hovering_1RCgm:hover i {
+        color: #1ba784 !important;
+    }
+
+    #myuser .myuserconfig {
+        background-color: #1ba784 !important;
+        border: 0px !important;
+
+        &:hover {
+            background-color: rgba(27, 167, 132, 1) !important;
+        }
+    }
+
+    .wrapper_new .s_btn_wr .s_btn {
+        background-color: #1ba784;
+
+        &:hover {
+            background-color: #1ba784 !important;
+            border: 0px;
+        }
+    }
+
+    #wrapper.wrapper_new .bdpfmenu,
+    #wrapper.wrapper_new .usermenu {
+        background-color: rgba(248, 248, 248, 0.1) !important;
+    }
+
+    .wrapper_new #u .bdpfmenu a,
+    .wrapper_new #u .usermenu a {
+        background-color: rgba(248, 248, 248, 0.1) !important;
+        text-align: center !important;
+        padding: 3px 16px 3px 16px;
+    }
+
+    .wrapper_new #u .bdpfmenu a:hover,
+    .wrapper_new #u .usermenu a:hover {
+        margin-left: 1px;
+    }
+
+    #wrapper #s_tab {
+        padding-top: 75px !important;
+        color: rgb(208, 202, 198) !important;
+        background-color: rgba(248, 248, 248, 0.1) !important; /*百度搜索块体的颜色；透明度=0.1，最大1*/
+        border-bottom: 0px;
+
+        a {
+            color: rgb(208, 202, 198) !important;
+        }
+
+        b {
+            color: #1ba784;
+            border-bottom: 3px #1ba784 solid !important;
+        }
+
+        .cur-tab:after {
+            background-color: #1ba784;
+        }
+    }
+
+    .wrapper_new #s_tab .cur-tab:after {
+        background-color: #1ba784;
+    }
+
+    .s_tab_1z9nv .cur-tab_ReMW2::after {
+        background-color: #1ba784;
+    }
+
+    /**右侧栏的样式-其实不开启更好看一些*/
+    #content_right {
+        padding: 20px 15px 15px;
+        border-radius: 15px !important;
+        background-color: #fff;
+        box-sizing: border-box;
+        box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.1);
+        -webkit-box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.1);
+    }
+
+    &:before {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        content: '';
+        //background-image: url('https://img.tujidu.com/image/620210010b2cd.jpg');
+        background-size: 100% auto;
+        opacity: 0.6; /*背景图透明度=0.8，最大1*/
+    }
+
+    /**隐藏首页的大图标-修复可能导致外援样式异常**/
+    #s_lg_img_new {
+        display: none !important;
+    }
+
+    .c-container {
+        border-radius: 15px !important;
+        background-color: rgba(248, 248, 248, 0.1) !important; /*百度搜索块体的颜色；透明度=0.1，最大1*/
+
+        h3 {
+            background-color: rgba(248, 248, 248, 0) !important; /*百度搜索块体 - 标题的颜色；透明度=0.1，最大1*/
+        }
+
+        div {
+            a {
+                color: #1ba784 !important;
+            }
+            color: rgb(208, 202, 198) !important;
+            background-color: rgba(248, 248, 248, 0) !important; /*百度搜索块体 - 标题的颜色；透明度=0.1，最大1*/
+        }
+
+        /* &:hover {
+            border-radius: 15px  !important;
+            background-color: rgba(248, 248, 248, 0) !important;
+        } */
+    }
+
+    #wrapper #content_left .op-soft-title a:after,
+    #wrapper #content_left .result h3 a:after,
+    #wrapper #content_left .result-op h3 a:after {
+        border-bottom: 2px solid #1ba784 !important;
+    }
+
+    #wrapper #content_left > .c-container:hover,
+    #wrapper #content_left > .result:hover,
+    #wrapper #content_left > .result-op:hover,
+    #wrapper #content_left > .c-container:hover article {
+        border-radius: 15px !important;
+        background-color: rgba(248, 248, 248, 0) !important;
+    }
+
+    .new-pmd {
+        color: #1ba784 !important;
+        #rs_new {
+            border-radius: 15px !important;
+            background-color: rgba(248, 248, 248, 0.1) !important;
+            a {
+                color: #1ba784 !important;
+            }
+            a:hover {
+                background-color: rgba(248, 248, 248, 0.2) !important;
+            }
+        }
+
+        .c-color-t {
+            color: #1ba784 !important;
+        }
+    }
+
+    .rs-link_2DE3Q {
+        display: inline-block;
+        padding: 10px 12px;
+        margin-bottom: -10px;
+        /* background: #f5f5f6; */
+        background-color: rgba(248, 248, 248, 0.1) !important;
+        font-size: 14px;
+        height: 14px;
+        line-height: 14px;
+        border-radius: 17px;
+        text-align: left;
+        width: 224px;
+    }
+
+    #wrapper #page a,
+    #wrapper #page strong {
+        color: #1ba784 !important;
+        height: auto;
+        background-color: rgba(248, 248, 248, 0.1) !important;
+    }
+
+    #wrapper #page strong .pc {
+        background: #1ba784;
+        color: white;
+    }
+
+    #wrapper #page .n:hover,
+    #wrapper #page a:hover .pc {
+        border: 0;
+        background-color: rgba(248, 248, 248, 0.2) !important;
+        color: #1ba784;
+    }
+
+    #foot {
+        display: none;
+    }
+
+    #page {
+        background-color: transparent !important;
+        margin-bottom: 80px !important;
+    }
+}
+
+body[google] {
+    &:before {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        content: '';
+        background-image: url('https://img.tujidu.com/image/620210010b2cd.jpg');
+        background-size: 100% auto;
+        opacity: 0.8; /*背景图透明度=0.8，最大1*/
+    }
+
+    #rso .g,
+    .sfbg,
+    .f6F9Be,
+    .k8XOCe {
+        background-color: rgba(248, 248, 248, 0.6) !important;
+    }
+
+    .sfbg {
+        margin-top: -10px;
+    }
+
+    .yg51vc {
+        background-color: transparent !important;
+    }
+}
